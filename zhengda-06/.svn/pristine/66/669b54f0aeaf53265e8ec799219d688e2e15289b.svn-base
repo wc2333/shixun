@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b7ca349-1b4a-446c-8995-32a0537cc2f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zd/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/userInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/apache-tomcat-maven-plugin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zd/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2021-07-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2021-07-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/webapps" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache/jsp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache/jsp/WEB_002dINF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache/jsp/WEB_002dINF/userInfo_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache/jsp/WEB_002dINF/userInfo_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache/jsp/hello_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache/jsp/hello_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/zhengda-06/org/apache/jsp/index_jsp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1v1hch1lFn7dwOMOneSzUXCLoIo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/TortoiseSVN/bin/svn.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wcg\IdeaProjects\zhengda-06\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\wcg\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="sshConnectionType" value="PASSWORD" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\wcg\IdeaProjects\zhengda-06" />
+          <option name="myCopyRoot" value="C:\Users\wcg\IdeaProjects\zhengda-06" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\wcg\IdeaProjects\zhengda-06" />
+          <option name="myCopyRoot" value="C:\Users\wcg\IdeaProjects\zhengda-06" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b7ca349-1b4a-446c-8995-32a0537cc2f1" name="Default Changelist" comment="" />
+      <created>1625735607198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625735607198</updated>
+      <workItem from="1625735608958" duration="2246000" />
+      <workItem from="1625790459816" duration="6754000" />
+      <workItem from="1625802534444" duration="218000" />
+      <workItem from="1625811708251" duration="4691000" />
+      <workItem from="1625816493204" duration="1975000" />
+      <workItem from="1625818669764" duration="408000" />
+      <workItem from="1625819161260" duration="321000" />
+      <workItem from="1625819558292" duration="97000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
