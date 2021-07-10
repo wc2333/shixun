@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.hr</groupId>
+  <artifactId>javamaven02</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+
+
+  <!--统一版本-->
+  <properties>
+    <servlet.version>3.1.0</servlet.version>
+    <jsp-api.version>2.2</jsp-api.version>
+    <mysql.version>5.1.39</mysql.version>
+    <junit.version>4.11</junit.version>
+    <commons-loging.versoin>1.2</commons-loging.versoin>
+
+  </properties>
+
+  <dependencies>
+    <!--servlet-api-->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>${servlet.version}</version>
+      <!--指定范围,编译时需要，运行时不需要-->
+      <scope>provided</scope>
+    </dependency>
+    <!--jsp-api-->
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>${jsp-api.version}</version>
+      <!--指定范围,编译时需要，运行时不需要-->
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>${mysql.version}</version>
+      <!--指定范围,编译时不需要，运行时需要-->
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+
+      <!--    &lt;!&ndash;排除&ndash;&gt;-->
+      <!--    <exclusions>-->
+      <!--      <exclusion>-->
+      <!--        <groupId>org.hamcrest</groupId>-->
+      <!--        <artifactId>hamcrest-core</artifactId>-->
+      <!--      </exclusion>-->
+      <!--    </exclusions>-->
+
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>${commons-loging.versoin}</version>
+    </dependency>
+
+  </dependencies>
+  <build>
+    <plugins>
+      <!-- 配置Tomcat插件 -->
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+          <port>8080</port>
+          <path>/</path>
+          <uriEncoding>UTF-8</uriEncoding>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+
+</project>
